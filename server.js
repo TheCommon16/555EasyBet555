@@ -23,6 +23,7 @@ app.use(express.static(path.join(__dirname, "slot1")));
 app.use(express.static(path.join(__dirname, "slot2")));      
 app.use(express.static(path.join(__dirname, "coinflip3")));      
 
+
 var mysql = require('mysql2');
 
 var con = mysql.createConnection({
