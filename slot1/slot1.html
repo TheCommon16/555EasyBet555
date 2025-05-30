@@ -1,0 +1,119 @@
+
+                        <html>
+                        <head>
+                        <title> Slot </title>
+                       
+                        <audio src="audio1/roll.mp3" id="rollsound"></audio>
+                        <audio src="audio1/jackpotsound.mp3" id="jackpotsound"></audio>
+                        <link rel="icon"  href="img1/555.png"></link>
+                        <link rel="stylesheet" href="css1/style.css"></link>
+                        <link rel="stylesheet" href="css1/moneysstyle.css"></link> 
+                        <link rel="stylesheet" href="css1/jackpotstyle.css"></link> 
+                        <link rel="stylesheet" href="css1/levastyle.css"></link> 
+                        <link rel="stylesheet" href="css1/slotstyle.css"></link> 
+                        <link rel="stylesheet" href="css1/autorollstyle.css"></link> 
+                        <link rel="stylesheet" href="css1/betsizestyle.css"></link> 
+
+                        <script src="js1/jquery-3.7.1.min.js"> </script>
+                        <script src="js1/slotmachines.js"></script>
+             
+                        
+
+
+
+                        </head>
+
+                        <style>
+                            body{
+                                background-image: url("img1/sfondoo.png");
+                                background-repeat: no-repeat;
+                                background-size: 100% 100%;
+                                background-attachment: fixed; 
+                                                    
+                                                    
+                            }
+
+
+                            #corceimg{
+                                position: absolute;
+                                top: 1%;
+                                left: 1%;
+                                width: 3%;
+                                height: 5%;
+
+
+                            }
+                        
+
+                        </style>
+
+
+                        <body onload="startpageslot()">
+
+
+                        
+
+
+                        <div id="Slot">
+
+                            <div id="winspace"> </div>
+
+
+                            <img src="img1/bordoslot.png" width="100%" height="100%" draggable="false">
+
+
+                            <p id="space1"> </p>
+
+                            <p id="space2"> </p>
+
+                            <p id="space3"> </p>
+                        
+
+                            <div id="leva"  >
+                                <button id="levabutton" onclick="meccanismo()"> 
+                                    <img id="levaimg" src="img1/leva.png " width="110%" height="110%" position=absolute > 
+                                </button>
+                                
+                            </div>
+                        
+                            <div id="autorolldiv">
+                                <button id="autorollbutton" onclick="autoroll()">
+                                    <img src="img1/autorollbutton.png" id="autorollimg">
+                                </button>
+                            </div>
+
+                            <div id="betsizediv">
+                            
+                                <img id="betsizecaseimg" src="img1/betsizecase.png">
+                                <button id="betsizeminus"  onclick="downbetsize()"> <img id="minusimg" src="img1/minusarrow.png"></button>
+
+                                <h1 id="betsizevalue">  </h1>
+                                
+                                <button id="betsizeplus" onclick="upbetsize()"><img  id="plusimg" src="img1/plusarrow.png"></button>
+                            </div>
+                        
+
+                        </div>
+
+                            <div id="moneydiv">
+                                <img id="fiche" src="img1/fiche.png"  > 
+                                <p  id="money"> </p>
+                            </div>
+
+                      
+                        <img src="img1/croce.png" id="corceimg" onclick="returnhome()">
+<!--
+                        <div style="display:none">
+                            <form>
+                                <span id="iduserf">  </span>
+
+
+
+                            </form>
+                        </div>
+                    -->          
+
+                        </body>
+
+
+</html>

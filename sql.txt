@@ -1,0 +1,8 @@
+CREATE DATABASE utentislot;
+
+CREATE TABLE utenti(
+	ID INT(11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	username varchar(50) NOT NULL,
+	userpassword varchar(50) NOT NULL,
+	money INT(11) NOT NULL
+)
