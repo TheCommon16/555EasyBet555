@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Homa Page</title>
+          <link rel="icon"  href="img/555.png">
+        <link rel="stylesheet" href="css/style.css"></link> 
+        <link rel="stylesheet" href="css/popupstyle.css"></link> 
+        <link rel="stylesheet" href="css/selectedzonestyle.css"></link> 
+        <script src="js/jquery-3.7.1.min.js"> </script>
+        <script src="js/pagestart.js"> </script>
+    </head>
+
+    <body onload="pagestart()">
+
+        <div id="leftborder">
+            <div id="divlogo">
+                <img src="img/555.png" id="logoimg1">
+                <img src="img/555.png" id="logoimg2">
+                <img src="img/555.png" id="logoimg3">
+            </div>
+
+            <div id="userzone">
+                <img src="img/usericon.png" id="userimg">
+
+                <div id="balancediv"> 
+                    
+                    <h1 id="userbalance" ></h1>
+
+                    <img src="img/fiche.png" id="blanceimg" />
+
+                    
+                </div>
+                <button onclick="slotclick(this)" id="leaderboardbutton" name="/leadroboard.html"> Leaderboard</button>
+            </div>
+
+
+           
+
+            <img src="img/disconettii.png" id="disconettiimg" onclick="disconetti()">
+
+        </div>
+
+        <div id="selectzone">
+
+            <div class="zone">
+                <h1 class="zonetitle"> Slots </h1>
+
+                <div class="game" name="/slot1.html" onclick="slotclick(this)">
+                    <img class="imggame" src="img/slot1.png">
+                    <h1 class="textgame"> Classic Slot </h1>
+                </div>
+              
+                <div class="game" name="/slot2.html" onclick="slotclick(this)">
+                    <img class="imggame" src="img/slot2.png">
+                    <h1 class="textgame"> Pokeslot  </h1>
+                </div>
+
+       
+
+            </div>
+           
+
+                  <div class="zone">
+                <h1 class="zonetitle"> Coin Flip </h1>
+
+                <div class="game" name="/coinflip3.html" onclick="slotclick(this)">
+                    <img class="imggame" src="img/coinflip1.png">
+                    <h1 class="textgame"> Coin Flip </h1>
+                </div>
+              
+             
+       
+
+            </div>
+           
+
+
+         
+
+            
+
+
+            
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+
+
+        <div id="puplogin">
+            
+            <form id="FormAccessLogin">
+                <h1 id="closexlogin" onclick="popupclose()"> X</h1>
+                <span class="spanform" > NickName</span>
+                <INPUT type="text" class="inputform" id="nickname" name="nickname">
+                <span class="spanform"> Password </span>
+                <INPUT type="password" class="inputform" id="password" name="password">
+             
+
+                <input type="button" class="login"    value="login"    onclick="userlogin()">
+                <input type="button" class="register" value="Register" onclick="registpopup()">
+
+
+            </form>
+
+        </div>
+
+
+        <div id="pupregister">
+            
+            <form id="FormAccessRegist">
+                <h1 id="closexregister" onclick="popupclose()"> X</h1>
+                <span class="spanform" > NickName</span>
+                <INPUT type="text" class="inputform" id="nickname" name="nickname">
+                <span class="spanform"> Password </span>
+                <INPUT type="password" class="inputform" id="password" name="password">
+             
+                
+                <input type="button" class="register" value="Register" onclick="userregister()">
+                <input type="button" class="login"    value="login"    onclick="loginpopup()">
+                
+    
+            </form>
+
+        </div>
+
+    </body>
+</html>

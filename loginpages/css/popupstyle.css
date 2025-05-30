@@ -1,0 +1,64 @@
+#puplogin , #pupregister{
+    background-color: rgba(58, 58, 58, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+   display: none;
+}
+
+#FormAccessLogin, #FormAccessRegist{
+    position: absolute;
+    border: 5px rgb(241, 148, 8) solid;
+    background-color: rgb(236, 176, 10);
+    left: 50px;;
+    height: 30%;
+    width: 30%;
+    left: 35%;
+    top: 25%;
+}
+.spanform{
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 13%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display:block;
+    text-align:Center;
+}
+
+
+.inputform{
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    top: 5%;
+    left: 12.5%;
+    font-size: 1.5vw;
+    width:  75%;
+    height: 12%;
+    display:block;
+    text-align:Center;
+}
+
+.login{
+    position: absolute;   
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.register{
+    position: absolute;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+#closexlogin , #closexregister{
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+}
+
